@@ -66,7 +66,18 @@
   </tr>
 </table>
 <br>
-<img src="docs/postman_atividade2.png" width="100%" alt="Evidência Postman Atividade 2">
+<table width="100%" style="border-collapse: separate; border-spacing: 10px; text-align: center;">
+    <tr>
+      <td width="50%" style="background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/SPRINT04.PNG" width="100%" style="border-radius: 5px;" alt="Board Kanban Notion Sprint 04">
+        <p style="margin: 10px 0 0; font-size: 0.85em; color: #2d3748;"><b>📊 Board Kanban no Notion (Sprint 04)</b></p>
+      </td>
+      <td width="50%" style="background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/IMAGEM.API.jpg" width="100%" style="border-radius: 5px;" alt="Evidência Técnica API">
+        <p style="margin: 10px 0 0; font-size: 0.85em; color: #2d3748;"><b>🔍 Evidência Técnica API</b></p>
+      </td>
+    </tr>
+  </table>
 
 <hr>
 
