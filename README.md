@@ -33,8 +33,8 @@
 <p><i><b>Status:</b> Atividade Aprovada na Sprint 4 em 30/01/2026.</i></p>
 
 <p align="center">
-  <img src="docs/board_entrega.png" width="100%" alt="Board de Aprovação Sprint">
-  <img src="docs/postman_json.png" width="100%" alt="Evidência JSON Postman">
+  <img src="docs/EVIDENCIAS3.PNG" width="100%" alt="Board de Aprovação e Checklist" style="margin-bottom: 10px;">
+  <img src="docs/IMAGEM.API.webp" width="100%" alt="Retorno JSON Postman 200 OK">
 </p>
 
 
