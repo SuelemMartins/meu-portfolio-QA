@@ -1,46 +1,47 @@
-<h1 align="center">🚀 Portfólio QA: Ciclo de Validações - Sprint 4 </h1>
+<h1 align="center">🚀 Portfólio QA: Ciclo de Validações - Sprint 45</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen">
+  <img src="https://img.shields.io/badge/Ambiente-Preview-orange">
+  <img src="https://img.shields.io/badge/Testes-E2E_%26_API-blue">
+</p>
+
+<p>Este repositório documenta as validações técnicas realizadas para a plataforma <b>Lacrei Saúde</b>, focando na integridade da pipeline de dados, regras de negócio no Back-end e infraestrutura Cloud.</p>
 
 <hr>
 
 <h2>🧪 Atividade 1: Ajuste de Endpoint e Mapeamento de IDs</h2>
+<p><b>Foco:</b> Padronização de dados e transição estrutural da API de profissionais.</p>
 
-<p><b>Contexto:</b> Esta atividade consistiu na validação técnica de uma alteração estrutural no banco de dados e na API, focada na padronização de dados dos profissionais de saúde.</p>
-
-<table width="100%" border="1" style="border-collapse: collapse; border: 1px solid #ddd; padding: 10px;">
-  <tr bgcolor="#f2f2f2">
-    <th align="left" style="padding: 10px;">🎯 Cenários de Validação (Checklist)</th>
+<table width="100%" border="1" style="border-collapse: collapse; border: 1px solid #ddd;">
+  <tr bgcolor="#f9f9f9">
+    <th align="left" style="padding: 12px;">🎯 Cenários de Validação (Checklist)</th>
   </tr>
   <tr>
-    <td style="padding: 10px;">
+    <td style="padding: 12px;">
       <ul>
-        <li>✅ <b>Mapeamento de Dados:</b> Conversão da propriedade <code>profession</code> de texto para identificadores numéricos (IDs).</li>
-        <li>✅ <b>Unificação de Objetos:</b> Validação do objeto <code>clinic</code> consolidado, garantindo a exibição de indicadores de atendimento presencial e online.</li>
-        <li>✅ <b>Integridade de Resposta:</b> Confirmação de que o retorno da API mantém a consistência dos dados após a migração estrutural.</li>
+        <li>✅ <b>Regra de Negócio:</b> Mapeamento da propriedade <code>profession</code> para IDs numéricos (ex: ID 1 para Psicologia).</li>
+        <li>✅ <b>Unificação:</b> Objeto <code>clinic</code> consolidado com indicadores de atendimento presencial e online.</li>
+        <li>✅ <b>Contrato JSON:</b> Validação de campos como <code>ethnic_group</code> e <code>gender_identity</code> na resposta.</li>
         <li>✅ <b>Status Code:</b> Validação de sucesso (200 OK) no ambiente de Preview.</li>
       </ul>
     </td>
   </tr>
 </table>
-
 <br>
-
 <h3>📸 Evidência de Execução</h3>
-<p><i><b>Ferramenta:</b> Postman / Ambiente: Preview.</i></p>
+<p><i><b>Status:</b> Atividade Aprovada na Sprint 4 em 30/01/2026.</i></p>
 
-![image TESTE](https://github.com/user-attachments/assets/d3fb115a-35a8-426e-9376-99801f1fba86)
-
-<img width="465" height="557" alt="image" src="https://github.com/user-attachments/assets/453dff53-d3e2-493e-a365-4789926745df" />
+<p align="center">
+  <img src="docs/board_entrega.png" width="100%" alt="Board de Aprovação Sprint">
+  <img src="docs/postman_json.png" width="100%" alt="Evidência JSON Postman">
+</p>
 
 
 <hr>
 
-<h3>💡 Conclusão Técnica</h3>
-<p>A validação garantiu que a transição para IDs numéricos não causou quebra de contrato na API. O objeto unificado permite uma resposta mais limpa e eficiente para o Front-end, assegurando que as informações de atendimento estejam corretas para o usuário final.</p>
-
-
-<h2 align="left">🧪 Atividade 2: Regra de Negócio e Flexibilidade de Contrato (Back-end)</h2>
-
-<p><b>Contexto:</b> Validação da implementação de múltipla escolha para o campo <code>request_type</code> no endpoint de solicitações de direitos do titular (LGPD).</p>
+<h2>🧪 Atividade 2: Regra de Negócio e Flexibilidade</h2>
+<p><b>Foco:</b> Implementação de múltipla escolha para solicitações de direitos do titular (LGPD).</p>
 
 <table width="100%" border="1" style="border-collapse: collapse; border: 1px solid #ddd;">
   <tr bgcolor="#f9f9f9">
@@ -49,38 +50,20 @@
   <tr>
     <td style="padding: 12px;">
       <ul>
-        <li>✅ <b>Lógica de Negócio:</b> Validação da transição do campo <code>request_type</code> de valor único para suporte a múltiplos Enums.</li>
-        <li>✅ <b>Validação de Payload:</b> Verificação da aceitação de arrays no JSON enviado via POST.</li>
-        <li>✅ <b>Contrato de API:</b> Alinhamento com a documentação Swagger para garantir que os Enums permitidos estão operacionais.</li>
+        <li>✅ <b>Lógica de Array:</b> Validação do campo <code>request_type</code> aceitando múltiplos Enums simultâneos.</li>
+        <li>✅ <b>Validação de Payload:</b> Teste de envio de requisições POST com múltiplos parâmetros de solicitação.</li>
         <li>✅ <b>Status Code:</b> Confirmação de retorno <b>201 Created</b> no ambiente de Preview.</li>
       </ul>
     </td>
   </tr>
 </table>
-
 <br>
-
-<h3>📸 Evidência de Execução</h3>
-<p align="center">
- 
-  ![IMAGEM API](https://github.com/user-attachments/assets/248f3240-0230-4025-9601-6a811cf69007)
-
-
-  <img width="479" height="497" alt="image" src="https://github.com/user-attachments/assets/173b7695-0def-466e-91e6-57da22d7db92" />
-
-
-
-</p>
+<img src="docs/postman_atividade2.png" width="100%" alt="Evidência Postman Atividade 2">
 
 <hr>
 
-<h3>💡 Conclusão Técnica</h3>
-<p>A validação confirmou que o Back-end está processando corretamente múltiplas opções de solicitação em uma única requisição. Essa melhoria garante maior flexibilidade ao usuário e otimiza o fluxo de conformidade com a LGPD dentro da plataforma.</p>
-
-
-<h2 align="left">🧪 Atividade 3: Integração DevOps e Entrega via Cloud Storage</h2>
-
-<p><b>Contexto:</b> Validação da pipeline de dados entre o site Institucional e a infraestrutura AWS, garantindo a persistência e entrega de arquivos via CDN.</p>
+<h2>🧪 Atividade 3: Integração DevOps e Cloud Storage</h2>
+<p><b>Foco:</b> Pipeline entre site Institucional e AWS S3/CloudFront.</p>
 
 <table width="100%" border="1" style="border-collapse: collapse; border: 1px solid #ddd;">
   <tr bgcolor="#f9f9f9">
@@ -89,25 +72,18 @@
   <tr>
     <td style="padding: 12px;">
       <ul>
-        <li>✅ <b>Integração de Pipeline:</b> Validação do fluxo de dados entre o repositório <code>lacrei-institucional</code> e a API de produção.</li>
-        <li>✅ <b>Segurança e Padronização:</b> Verificação da regra de negócio que substitui o nome original do arquivo por um identificador único <b>UUID</b>.</li>
-        <li>✅ <b>Cloud Storage (AWS):</b> Confirmação do armazenamento em diretórios S3 e entrega eficiente via link <b>CloudFront (CDN)</b>.</li>
-        <li>✅ <b>UX & Rede:</b> Monitoramento via <i>Network Tab</i> para garantir tempos de resposta otimizados (média de 1.20s).</li>
+        <li>✅ <b>Segurança:</b> Substituição do nome original do arquivo por identificador único <b>UUID</b>.</li>
+        <li>✅ <b>Integração Cloud:</b> Armazenamento em diretórios S3 e entrega via link CloudFront (CDN).</li>
+        <li>✅ <b>Performance:</b> Validação de tempo de resposta em requisições de upload (média 1.20s).</li>
       </ul>
     </td>
   </tr>
 </table>
-
 <br>
-
-<h3>📸 Evidência de Execução</h3>
-<p><i><b>Ambiente:</b> Preview / <b>Tecnologia:</b> AWS S3 & CloudFront.</i></p>
-<img width="1016" height="660" alt="image" src="https://github.com/user-attachments/assets/27d1dc48-d946-4885-8f6d-feebd11fae29" />
-
-<img width="528" height="589" alt="image" src="https://github.com/user-attachments/assets/3524d49b-8d43-472b-977d-a87328f8037d" />
-
+<img src="docs/site_institucional_sucesso.png" width="100%" alt="Evidência Site Institucional">
+![Uploading image.TESTE.jpg…]()
 
 <hr>
 
-<h3>💡 Conclusão Técnica</h3>
-<p>Esta validação confirma que a infraestrutura de nuvem está operando conforme os padrões de segurança e performance. O uso de UUIDs garante que não haja conflito de nomes no storage, enquanto a CDN assegura uma entrega rápida dos arquivos para o usuário final, independentemente de sua localização.</p>
+<h3>💡 Conclusão Geral</h3>
+<p>As validações confirmam que a arquitetura distribuída está em harmonia. O sistema garante a unicidade dos arquivos, a eficiência na entrega via CDN e a correta aplicação das regras de negócio no Back-end, assegurando uma experiência estável e segura para o usuário final.</p>
