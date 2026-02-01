@@ -32,10 +32,18 @@
 <h3>📸 Evidência de Execução</h3>
 <p><i><b>Status:</b> Atividade Aprovada na Sprint 4 em 30/01/2026.</i></p>
 
-<p align="center">
-  <img src="docs/EVIDENCIAS3.PNG" width="100%" alt="Board de Aprovação e Checklist" style="margin-bottom: 10px;">
-  <img src="docs/IMAGEM.API.webp" width="100%" alt="Retorno JSON Postman 200 OK">
-</p>
+<table width="100%" style="border: none; text-align: center;">
+  <tr>
+    <td width="50%" style="border: none;">
+      <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/EVIDENCIAS3.PNG" width="100%" alt="Board de Aprovação">
+      <p><small>Board de Aprovação e Checklist</small></p>
+    </td>
+    <td width="50%" style="border: none;">
+      <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/IMAGEM.API.webp" width="100%" alt="Retorno JSON Postman">
+      <p><small>Retorno JSON Postman 200 OK</small></p>
+    </td>
+  </tr>
+</table>
 
 
 <hr>
