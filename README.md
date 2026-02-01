@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Portfólio QA: Ciclo de Validações - Sprint 45</h1>
+<h1 align="center">🚀 Portfólio QA: Ciclo de Validações - Sprint 4</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Concluído-brightgreen">
@@ -32,18 +32,18 @@
 <h3>📸 Evidência de Execução</h3>
 <p><i><b>Status:</b> Atividade Aprovada na Sprint 4 em 30/01/2026.</i></p>
 
-<table width="100%" style="border: none; text-align: center;">
-  <tr>
-    <td width="50%" style="border: none;">
-      <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/EVIDENCIAS3.PNG" width="100%" alt="Board de Aprovação">
-      <p><small>Board de Aprovação e Checklist</small></p>
-    </td>
-    <td width="50%" style="border: none;">
-      <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/IMAGEM.API.webp" width="100%" alt="Retorno JSON Postman">
-      <p><small>Retorno JSON Postman 200 OK</small></p>
-    </td>
-  </tr>
-</table>
+<table width="100%" style="border-collapse: separate; border-spacing: 10px; text-align: center;">
+    <tr>
+      <td width="50%" style="background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/image.TESTE.jpg" width="100%" style="border-radius: 5px;">
+        <p style="margin: 10px 0 0; font-size: 0.85em; color: #2d3748;"><b>📊Validação Técnica JSON</b></p>
+      </td>
+      <td width="50%" style="background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/EVIDENCIA.IMAGEM.PNG" width="100%" style="border-radius: 5px;">
+        <p style="margin: 10px 0 0; font-size: 0.85em; color: #2d3748;"><b>🔍Board Kanban no Notion</b></p>
+      </td>
+    </tr>
+  </table>
 
 
 <hr>
