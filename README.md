@@ -10,8 +10,9 @@
 
 <hr>
 
-<h2>🧪 Atividade 1: Ajuste de Endpoint e Mapeamento de IDs</h2>
-<p><b>Foco:</b> Padronização de dados e transição estrutural da API de profissionais.</p>
+<h3 style="color: #2c5282;">📂 Atividade 1 - 🧪[BACK] Ajustar o endpoint de GET lacreisaude/professionals/</h3>
+<p><b>Contexto:</b> Ajuste de Endpoint Profissionais. Validação de sucesso (200 OK) no mapeamento de profissão para IDs numéricos e unificação do objeto <code>clinic</code>.</p>
+
 
 <table width="100%" border="1" style="border-collapse: collapse; border: 1px solid #ddd;">
   <tr bgcolor="#f9f9f9">
@@ -29,6 +30,7 @@
   </tr>
 </table>
 <br>
+
 <h3>📸 Evidência de Execução</h3>
 <p><i><b>Status:</b> Atividade Aprovada na Sprint 4 em 30/01/2026.</i></p>
 
@@ -48,8 +50,10 @@
 
 <hr>
 
-<h2>🧪 Atividade 2: Regra de Negócio e Flexibilidade</h2>
-<p><b>Foco:</b> Implementação de múltipla escolha para solicitações de direitos do titular (LGPD).</p>
+
+
+<h3 style="color: #c53030;">📂 Atividade 2 - 🧪 [BACK] Correção necessária no campo request_type</h3>
+<p><b>Contexto:</b> Regra de Negócio. Validação do endpoint de direitos do titular com a nova funcionalidade de múltipla escolha para o campo <code>request_type</code>.</p>
 
 <table width="100%" border="1" style="border-collapse: collapse; border: 1px solid #ddd;">
   <tr bgcolor="#f9f9f9">
@@ -66,6 +70,7 @@
   </tr>
 </table>
 <br>
+
 <table width="100%" style="border-collapse: separate; border-spacing: 10px; text-align: center;">
     <tr>
       <td width="50%" style="background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
@@ -81,8 +86,8 @@
 
 <hr>
 
-<h2>🧪 Atividade 3: Integração DevOps e Cloud Storage</h2>
-<p><b>Foco:</b> Pipeline entre site Institucional e AWS S3/CloudFront.</p>
+<h3 style="color: #2b6cb0;">🚀 Atividade 3 - 🧪 [DevOps] Integração do endpoint de direitos do titular no repositório jornada-institucional</h3>
+<p><b>Contexto:</b> Integração DevOps Institucional. Validação do fluxo completo confirmando a comunicação entre o front-end e a API via link de preview. Garantia de integridade com <b>retorno 201</b>.</p>
 
 <table width="100%" border="1" style="border-collapse: collapse; border: 1px solid #ddd;">
   <tr bgcolor="#f9f9f9">
@@ -99,9 +104,19 @@
   </tr>
 </table>
 <br>
-<img src="docs/site_institucional_sucesso.png" width="100%" alt="Evidência Site Institucional">
-![Uploading image.TESTE.jpg…]()
 
+<table width="100%" style="border-collapse: separate; border-spacing: 10px; text-align: center;">
+    <tr>
+      <td width="50%" style="background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/IMG.SPRINT04..PNG" width="100%" style="border-radius: 5px;" alt="Sprint Board Notion">
+        <p style="margin: 10px 0 0; font-size: 0.85em; color: #2d3748;"><b>📊 Board Kanban no Notion</b></p>
+      </td>
+      <td width="50%" style="background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <img src="https://raw.githubusercontent.com/SuelemMartins/meu-portfolio-QA/main/POST.200.PNG" width="100%" style="border-radius: 5px;" alt="Evidência Inspecionar F12">
+        <p style="margin: 10px 0 0; font-size: 0.85em; color: #2d3748;"><b>🔍 Inspecionar F12 (Network 200)</b></p>
+      </td>
+    </tr>
+  </table>
 <hr>
 
 <h3>💡 Conclusão Geral</h3>
