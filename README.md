@@ -8,7 +8,9 @@
 
 <p>Este repositório documenta as validações técnicas realizadas para a plataforma <b>Lacrei Saúde</b>, focando na integridade da pipeline de dados, regras de negócio no Back-end e infraestrutura Cloud.</p>
 
+
 <hr>
+<span style="background-color: #2c5282; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.8em; font-weight: bold;">⚙️ TESTE DE INTEGRAÇÃO / API</span>
 
 <h3 style="color: #2c5282;">📂 Atividade 1 - 🧪[BACK] Ajustar o endpoint de GET lacreisaude/professionals/</h3>
 <p><b>Contexto:</b> Ajuste de Endpoint Profissionais. Validação de sucesso (200 OK) no mapeamento de profissão para IDs numéricos e unificação do objeto <code>clinic</code>.</p>
@@ -51,6 +53,7 @@
 <hr>
 
 
+<span style="background-color: #c53030; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.8em; font-weight: bold;">🎯 TESTE DE ACEITE (BDD)</span>
 
 <h3 style="color: #c53030;">📂 Atividade 2 - 🧪 [BACK] Correção necessária no campo request_type</h3>
 <p><b>Contexto:</b> Regra de Negócio. Validação do endpoint de direitos do titular com a nova funcionalidade de múltipla escolha para o campo <code>request_type</code>.</p>
@@ -85,6 +88,8 @@
   </table>
 
 <hr>
+
+<span style="background-color: #2b6cb0; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.8em; font-weight: bold;">🌐 TESTE DE SISTEMA / E2E</span>
 
 <h3 style="color: #2b6cb0;">🚀 Atividade 3 - 🧪 [DevOps] Integração do endpoint de direitos do titular no repositório jornada-institucional</h3>
 <p><b>Contexto:</b> Integração DevOps Institucional. Validação do fluxo completo confirmando a comunicação entre o front-end e a API via link de preview. Garantia de integridade com <b>retorno 201</b>.</p>
